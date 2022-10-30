@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10">
+        <rdfs:comment xml:lang="en">This is an ontology that depicts the hierarchical structure of Uganda&apos;s educational system.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Block_Laying_and_Concrete_Practice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Block_Laying_and_Concrete_Practice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UBTEB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Carpentry_and_joinery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Carpentry_and_joinery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UBTEB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_Institutions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_Institutions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UCE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_in_Early_Childhood_Development_and_Social_care -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_in_Early_Childhood_Development_and_Social_care">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Kampala_School_of_Health_Sciences"/>
+        <rdfs:comment xml:lang="en">Duration : 2 Years
+
+Tuition Fees per semester: 950,000/=
+
+Entry Requirements : A student must have passed ‘O’ Level in the following subjects ; Mathematics, English and any other best done subjects.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_in_Integrated_Primary_Healthy_Care -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_in_Integrated_Primary_Healthy_Care">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Kampala_School_of_Health_Sciences"/>
+        <rdfs:comment xml:lang="en">Entry Requirements : O level certificate with a credit in ;
+
+– Biology and chemistry
+
+– and at least 5 passes in the following subjects;
+– English , Mathematics, Physics</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_in_Medical_Laboratory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_in_Medical_Laboratory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Kampala_School_of_Health_Sciences"/>
+        <rdfs:comment xml:lang="en">Course Duration: 2 Years
+
+Tuition Fees per semester: 950,000/= 
+
+Entry Requirements : A student must have passed ‘O’ Level in the following subjects ; Physics, Mathematics, Chemistry, Biology, English</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_in_Medical_Records_and_Information_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_in_Medical_Records_and_Information_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Kampala_School_of_Health_Sciences"/>
+        <rdfs:comment xml:lang="en">Duration : 2 Years
+
+Tuition Fees per semester: 500,000/=
+
+Entry Requirements : A student must have passed all ‘O’ Level subjects ;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_in_Midwifery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_in_Midwifery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Kampala_School_of_Health_Sciences"/>
+        <rdfs:comment xml:lang="en">Course Duration: 2.5 Years
+
+Tuition Fees per semester: 1,000,000/= 
+
+Entry Requirements : A student must have passed ‘O’ Level in the following subjects ; Physics, Mathematics, Chemistry, Biology, English</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_in_Nursing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_in_Nursing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Kampala_School_of_Health_Sciences"/>
+        <rdfs:comment xml:lang="en">Course Duration: 2.5 Years
+
+Tuition Fees per semester: 1,000,000/= 
+
+Entry Requirements : A student must have passed ‘O’ Level in the following subjects ; Physics, Mathematics, Chemistry, Biology, English</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_in_Pharmacy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_in_Pharmacy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Kampala_School_of_Health_Sciences"/>
+        <rdfs:comment xml:lang="en">Course Duration: 2 Years
+
+Tuition Fees per semester: 700,000/= 
+
+Entry Requirements : A student must have passed ‘O’ Level in the following subjects ; Physics, Mathematics, Chemistry, Biology, English</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_in_Public_Health -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_in_Public_Health">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Kampala_School_of_Health_Sciences"/>
+        <rdfs:comment xml:lang="en">Duration : 2 Years
+
+Tuition Fees per semester: 500,000
+
+Entry Requirements : A student must have 5 credits at ‘O’ Level ;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_in_Theater_Assistant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_in_Theater_Assistant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Kampala_School_of_Health_Sciences"/>
+        <rdfs:comment xml:lang="en">Course Duration: 2 Years
+
+Tuition Fees per semester: 1,000,000/= 
+
+Entry Requirements : A student must have passed ‘O’ Level in the following subjects ; Physics, Mathematics, Chemistry, Biology, English</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#College -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#College">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Uganda_Advanced_Certificate_of_Education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Commercial_Crop_production -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Commercial_Crop_production">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UBTEB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Commercial_Livestock_production -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Commercial_Livestock_production">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UBTEB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Community_Polytechnic_Certificate_in_Agriculture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Community_Polytechnic_Certificate_in_Agriculture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UBTEB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Electrical_Installation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Electrical_Installation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UBTEB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Faculty_of_Applied_Sciences_and_Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Faculty_of_Applied_Sciences_and_Technology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Mbarara_University"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Food_Processing_and_production -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Food_Processing_and_production">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UBTEB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Garment_design_and_construction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Garment_design_and_construction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UBTEB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Kampala_School_of_Health_Sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Kampala_School_of_Health_Sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_Institutions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Leather_tanning_and_shoe_making -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Leather_tanning_and_shoe_making">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UBTEB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#MUST -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#MUST">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#University"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Mbarara_University -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Mbarara_University">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#University"/>
+        <rdfs:comment xml:lang="en">MBARARA UNIVERSITY, MUST UNDERGRADUATE ADMISSION REQUIREMENT
+
+MINIMUM ENTRY REQUIREMENTS
+
+The minimum requirements for admission to any Undergraduate degree are:
+
+    Uganda Certificate of Education (UCE) or it’s equivalent with at least 5 passes
+    Uganda Advanced Certificate of Education (UACE) or it’s equivalent with at least 2 principal passes.
+    Diploma holders must have passed with at least a credit.
+
+The minimum requirements for admission to any Diploma program are:
+
+    Uganda Certificate of Education (UCE) or it’s equivalent with at least 5 passes
+    Uganda Advanced Certificate of Education (UACE) or it’s equivalent with at least 1 principal pass and two subsidiary passes
+
+The minimum requirements for admission to any Certificate program are:
+    Uganda Certificate of Education (UCE) or it’s equivalent with at least 5 passes
+
+Additionally, for international applicants:
+
+    Applicants whose first language or medium of instruction is not English must provide evidence from a recognized English language training institution that they have sufficient command of the English language.
+    Have a documentary evidence of Internship Training indicating disciplines and dates.
+    International applicants should have their documents verified by NCHE.
+    International applicants should have their degree certificate and transcript translated and converted into an equivalent of Ugandan Universities’ CGPA
+    Be registered or eligible for registration with Uganda Medical and Dental Practitioners Council.
+
+A current certificate of good standing with the Medical Practitioners’ Council of the country of origin.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Mbarara University of Science and Technology, MUST  admission requirement for all the courses at the undergraduate and diploma level</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Motor_vehicle_Mechanics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Motor_vehicle_Mechanics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UBTEB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#PLE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#PLE">
+        <rdfs:comment xml:lang="en">PLE = Primary Leaving Exams 
+This level takes 7 years</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Plumbing_and_Pipe_fitting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Plumbing_and_Pipe_fitting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UBTEB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Technical_and_Vocational_Institutes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Technical_and_Vocational_Institutes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#PLE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UBTEB -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UBTEB">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Technical_and_Vocational_Institutes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UCE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UCE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#PLE"/>
+        <rdfs:comment xml:lang="en">UCE = Uganda Certificate of Education
+This level takes 4 years</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Uganda_Advanced_Certificate_of_Education -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Uganda_Advanced_Certificate_of_Education">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UCE"/>
+        <rdfs:comment xml:lang="en">UACE = Uganda Advanced Certificate of Education</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#University -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#University">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Uganda_Advanced_Certificate_of_Education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Welding_Metal_and_fabrication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Welding_Metal_and_fabrication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UBTEB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Business_Studies_(Secretarial_studies,_Accounting,_Computer_Studies,_Store_keeping) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Business_Studies_(Secretarial_studies,_Accounting,_Computer_Studies,_Store_keeping)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UBTEB"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

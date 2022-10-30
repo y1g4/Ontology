@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Studies -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Studies">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Module"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Teaches -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Teaches">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Lecturer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Module"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#first_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#first_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#last_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#last_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#staffID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#staffID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Lecturer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#studentID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#studentID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#CSModule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#CSModule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Module"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Lecturer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Lecturer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#MathModule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#MathModule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Module"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Module -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Module"/>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Student">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#CS100 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#CS100">
+        <rdf:type rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#CSModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#CS101 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#CS101">
+        <rdf:type rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#CSModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Lecturer1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Lecturer1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Lecturer"/>
+        <Teaches rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#CS100"/>
+        <Teaches rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#M201"/>
+        <first_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ssendyowa</first_name>
+        <last_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Martin</last_name>
+        <staffID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">417687</staffID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Lecturer2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Lecturer2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#M201 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#M201">
+        <rdf:type rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#MathModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#M204 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#M204">
+        <rdf:type rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#MathModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Student1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Student1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Student"/>
+        <Studies rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#CS100"/>
+        <Studies rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#M201"/>
+        <Studies rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#M204"/>
+        <first_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yiga</first_name>
+        <last_name rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">266814</last_name>
+        <last_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frank</last_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Student2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Student2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Student"/>
+        <Studies rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#CS100"/>
+        <Studies rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#CS101"/>
+        <first_name rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800642</first_name>
+        <first_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bogere</first_name>
+        <last_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lynette</last_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Lecturer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#MathModule"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Person"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-5#Student"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
