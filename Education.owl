@@ -15,6 +15,63 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_Institutions -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_Institutions">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UCE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Kampala_School_of_Health_Sciences -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Kampala_School_of_Health_Sciences">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Certificate_Institutions"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#PLE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#PLE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Technical_and_Vocational_Institutes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Technical_and_Vocational_Institutes">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#PLE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UCE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UCE">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#PLE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Uganda_Advanced_Certificate_of_Education -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Uganda_Advanced_Certificate_of_Education">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UCE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -245,14 +302,6 @@ Entry Requirements : A student must have passed ‘O’ Level in the following s
     
 
 
-    <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#MUST -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#MUST">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#University"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Mbarara_University -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Mbarara_University">
@@ -299,10 +348,7 @@ A current certificate of good standing with the Medical Practitioners’ Council
 
     <!-- http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#PLE -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#PLE">
-        <rdfs:comment xml:lang="en">PLE = Primary Leaving Exams 
-This level takes 7 years</rdfs:comment>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#PLE"/>
     
 
 
@@ -334,8 +380,6 @@ This level takes 7 years</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UCE">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#PLE"/>
-        <rdfs:comment xml:lang="en">UCE = Uganda Certificate of Education
-This level takes 4 years</rdfs:comment>
     </owl:Class>
     
 
@@ -344,7 +388,6 @@ This level takes 4 years</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Uganda_Advanced_Certificate_of_Education">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UCE"/>
-        <rdfs:comment xml:lang="en">UACE = Uganda Advanced Certificate of Education</rdfs:comment>
     </owl:Class>
     
 
@@ -370,6 +413,28 @@ This level takes 4 years</rdfs:comment>
     <owl:Class rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Business_Studies_(Secretarial_studies,_Accounting,_Computer_Studies,_Store_keeping)">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UBTEB"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#PLE">
+        <rdfs:comment xml:lang="en">PLE = Primary Leaving Exams 
+This level takes 7 years</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#UCE">
+        <rdfs:comment xml:lang="en">UCE = Uganda Certificate of Education
+This level takes 4 years</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/frank/ontologies/2022/9/untitled-ontology-10#Uganda_Advanced_Certificate_of_Education">
+        <rdfs:comment xml:lang="en">UACE = Uganda Advanced Certificate of Education</rdfs:comment>
+    </rdf:Description>
 </rdf:RDF>
 
 
